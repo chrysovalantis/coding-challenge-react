@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { SERVER_URL } from "../config";
 import { login } from "../api/auth";
 
 const Login = (props) => {
